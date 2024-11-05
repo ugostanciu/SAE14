@@ -1,0 +1,32 @@
+* {
+    font-family: 'poppins', sans-serif;
+}
+:root {
+    --primary-color: #3f65f0; 
+    --secondary-color: #ffffff; 
+    --loader-color: rgb(9, 2, 32);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+header ul{
+    display:flex ;
+    list-style-type: none;
+}
+header ul li{
+    padding: 8px 12px;
+}
+header div span {
+    color: var(--primary-color);
+}
+header nav button {
+    color: var(--primary-color);
+}
+header h1 span {
+    color: var(--primary-color);
+}
+p span {
+    color: var(--primary-color);
+}
