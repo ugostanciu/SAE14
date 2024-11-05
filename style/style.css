@@ -16,8 +16,9 @@ header ul{
     list-style-type: none;
 }
 header ul li{
-    padding: 8px 12px;
+    padding: 0 12px;
 }
+
 header div span {
     color: var(--primary-color);
 }
@@ -29,4 +30,55 @@ header h1 span {
 }
 p span {
     color: var(--primary-color);
+}
+nav button {
+  background: var(--primary-color);
+  padding: 8px 12px;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+nav button:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+ul li a {
+  color: var(--loader-color);
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.5s;
+}
+ul li a:hover {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.text {
+  padding: 80px 80px;
+}
+.text h1 {
+  font-size: 50px;
+}
+.text span,
+.argument {
+  color: var(--primary-color);
+}
+.text p {
+  max-width: 45%;
+  margin: 20px 0;
+}
+.achat{
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 15px 30px;
+  display: flex;
+  margin-top: 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.achat:hover {
+  letter-spacing: 5px;
 }
